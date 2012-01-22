@@ -1,0 +1,15 @@
+application: brillcdn
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /sf/tt.appcache
+  static_files: sf/tt.appcache
+  mime_type: text/cache-manifest
+  upload: sf/tt.appcache
+  expiration: "1s"
+
+- url: /sf
+  static_dir: sf
