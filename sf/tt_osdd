@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
- <ShortName>timer</ShortName>
- <Description>set timer</Description>
- <Url type="text/html" method="get" template="http://www.timer-tab.com/?timer={searchTerms}"/>
+ <ShortName>Countdown</ShortName>
+ <Description>set Timer/Alarm</Description>
+ <Url type="text/html" method="get" template="http://www.timer-tab.com/?start={searchTerms}"/>
 </OpenSearchDescription>
