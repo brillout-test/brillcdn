@@ -2,5 +2,5 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
  <ShortName>Countdown</ShortName>
  <Description>set Timer/Alarm</Description>
- <Url type="text/html" method="get" template="http://www.timer-tab.com/?start={searchTerms}"/>
+ <Url type="text/html" method="get" template="http://www.timer-tab.com#{searchTerms}"/>
 </OpenSearchDescription>
