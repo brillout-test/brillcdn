@@ -3,13 +3,24 @@ version: 1
 runtime: python
 api_version: 1
 
+default_expiration: "1s"
+
 handlers:
 
 - url: /sf/tt.appcache
   static_files: sf/tt.appcache
   mime_type: text/cache-manifest
   upload: sf/tt.appcache
-  expiration: "1s"
+
+- url: /sf/tt_osdd
+  static_files: sf/tt_osdd
+  mime_type: application/opensearchdescription+xml
+  upload: sf/tt_osdd
+
+- url: /sf/lato.woff
+  static_files: sf/lato.woff
+  mime_type: application/x-font-woff
+  upload: sf/lato.woff
 
 - url: /sf
   static_dir: sf
